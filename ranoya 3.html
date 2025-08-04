@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title> Layout 3 - Nicole Melissa </title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;  }
+
+    body {
+      font-family: 'Georgia';
+      color: #ff0062;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      height: 100vh;  }
+
+    .wrap {
+      width: 80%;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      border: 2px solid #ffb0ce;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-height: 90vh;  }
+
+    section {
+      border: 2px solid #ff0062; 
+      padding: 20px;
+      background-color: transparent;
+      box-sizing: border-box;
+      min-height: 100px;  }
+
+    .header-section {
+      border: none;
+      padding: 0;
+      background-color: transparent;  }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 2px solid #ff0062; 
+      background-color: #ffffff;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      height: 100px;  }
+
+    .logo {
+      width: 160px;
+      height: 100px;
+      background-color: #ff0062;
+      flex-shrink: 0;  }
+
+    .menu {
+      display: flex;
+      gap: 20px;  }
+
+    .menu-item {
+      padding: 30px 40px;
+      border: 2px solid #ffb0ce;
+      background-color: #ffffff;
+      color: #ff0062;
+      font-weight: bold;
+      text-align: center;
+      user-select: none;
+      cursor: default;
+      flex-shrink: 0;  }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="wrap">
+
+    <section class="header-section">
+      <div class="navbar">
+        <div class="logo"></div>
+        <div class="menu">
+          <div class="menu-item">1</div>
+          <div class="menu-item">2</div>
+          <div class="menu-item">3</div>
+          <div class="menu-item">4</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2> Alguma coisinha </h2>
+    </section>
+
+    <section>
+      <h2> Alguma outra coisinha</h2>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
